@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#08111f"><meta name="description" content="BugBlitz — a silly, fast toilet-bowl bug-blasting arcade game.">
-<title>BugBlitz — Flush the Bugs!</title>
+<meta name="theme-color" content="#08111f"><meta name="description" content="BoomBug — a silly, fast toilet-bowl bug-blasting arcade game.">
+<title>BoomBug — Flush the Bugs!</title>
 <style>
 :root{color-scheme:dark;--bg:#08111f;--panel:#111f32;--mint:#79f2c0;--blue:#75caff;--pink:#ff8eb7}
 *{box-sizing:border-box}body{margin:0;min-height:100svh;background:radial-gradient(ellipse at top,#1a3850 0%,#08111f 65%);font-family:system-ui,-apple-system,Segoe UI,sans-serif;color:#f4f8ff;display:flex;justify-content:center;padding:18px}
@@ -15,7 +15,7 @@ canvas{display:block;width:100%;height:auto;aspect-ratio:4/5;max-height:68svh;cu
 </style>
 </head>
 <body><main>
-<header><div class="logo">BugBlitz</div><p class="tag">Tiny bugs. Big splash. Total chaos. 💦</p></header>
+<header><div class="logo">BoomBug</div><p class="tag">Tiny bugs. Big splash. Total chaos. 💦</p></header>
 <section class="stats" aria-label="Game stats"><div class="stat"><div class="label">Score</div><div class="value" id="score">0</div></div><div class="stat"><div class="label">Time</div><div class="value" id="time">30</div></div><div class="stat"><div class="label">Bugs left</div><div class="value" id="left">12</div></div></section>
 <div class="arena"><canvas id="game" width="480" height="600" aria-label="Tap the bugs to blast them with water"></canvas><div class="overlay" id="overlay"><div class="card"><h2 id="overlayTitle">Ready, Blitzer? 🚽</h2><p id="overlayText">Tap or click the silly flies before time runs out. Each splash earns points. Don't let those little troublemakers escape!</p><button class="btn" id="start">LET'S SPLASH!</button></div></div></div>
 <div class="controls"><button class="btn" id="restart">↻ Restart</button><button class="btn secondary" id="sound">🔊 Sound: On</button></div>
